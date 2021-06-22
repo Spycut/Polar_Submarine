@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 73324b55f67f54c7bbf43204788b8bbe, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17245634, g: 0.2065475, b: 0.24674317, a: 1}
+  m_IndirectSpecularColor: {r: 0.114102125, g: 0.32948005, b: 0.71094096, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,8 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 9c1aa014dce6540409651376b0d7859e, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: f944ae608bc0f8347820c58d27099a18, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -458,8 +458,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0.0995016, g: 0.11454241, b: 0.49056602, a: 1}
+  m_Intensity: 0.49
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -498,7 +498,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -1356,14 +1356,50 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1915556982}
     m_Modifications:
+    - target: {fileID: 271150777716085914, guid: 11e1fb6565b007648b9926409347d1e9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 315816313836528003, guid: 11e1fb6565b007648b9926409347d1e9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1746968350596560603, guid: 11e1fb6565b007648b9926409347d1e9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1747663112231916850, guid: 11e1fb6565b007648b9926409347d1e9, type: 3}
       propertyPath: m_Name
       value: Submarine w Torpedo
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747663112231916850, guid: 11e1fb6565b007648b9926409347d1e9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2057670128683633452, guid: 11e1fb6565b007648b9926409347d1e9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3282315758209148934, guid: 11e1fb6565b007648b9926409347d1e9, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 18ed0534b8718224ba4c2fa3e44d47fb, type: 2}
+    - target: {fileID: 5011379814392689778, guid: 11e1fb6565b007648b9926409347d1e9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166033806407381336, guid: 11e1fb6565b007648b9926409347d1e9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8081389241142696347, guid: 11e1fb6565b007648b9926409347d1e9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8081389241503099078, guid: 11e1fb6565b007648b9926409347d1e9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8106976381803511792, guid: 11e1fb6565b007648b9926409347d1e9, type: 3}
       propertyPath: m_RootOrder
       value: 0

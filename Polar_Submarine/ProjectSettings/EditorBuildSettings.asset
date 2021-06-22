@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 0
+    path: Assets/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSky.unity
+    guid: c4ac93a9f488344c29ac272cddb55dda
+  - enabled: 1
+    path: Assets/Scenes/SubmarineGameScene.unity
+    guid: 9e24e003b45ef9f4ca60e3c210eca2fa
   m_configObjects: {}
